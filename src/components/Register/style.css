@@ -1,0 +1,45 @@
+.divallreggister {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  
+  border: 2px;
+  /* border-style: solid; */
+  background-color: #67696d;
+  border-radius: 7px;
+}
+.allinputR {
+  /* justify-content: center; */
+  height: 8vh;
+  width: 28vw;
+  border-radius: 7px;
+  background-color: darkgrey;
+}
+
+.buttonR {
+  height: 10vh;
+  width: 20vw;
+  margin: 5px;
+  border-radius: 7px;
+  background-color:  rgb(87, 85, 138);
+  color: aliceblue;
+}
+
+.allOfResiter{
+    display: grid;
+    height: 70vh;
+   width: 30vw;
+    justify-content: center;
+    border: 2px;
+    border-style: solid;
+    border-radius: 7px;
+    background-color: #19162c;
+    margin-top: 20px;
+    justify-items: center;
+}
+
+
+.h3register{
+    color: rgb(219, 219, 219);
+    margin-top: 10px;
+}

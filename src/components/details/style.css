@@ -1,0 +1,65 @@
+.p {
+  color: rgb(255, 0, 0);
+}
+
+.detDiv {
+  display: flex;
+  width: 50vw;
+  height: 50vh;
+  justify-content: center;
+  border-radius: 7px;
+  border-style: solid;
+
+  margin-top: 15vh;
+  background-color: #19162c;
+  border-color: rgb(182, 182, 182);
+}
+.allDet {
+  display: grid;
+  justify-content: center;
+  border-radius: 7px;
+  border-style: solid;
+  margin-top: 15vh;
+  background-color: #19162c;
+  border-color: rgb(182, 182, 182);
+}
+
+.contDiv {
+  display: flex;
+  
+  width: 100vw;
+
+}
+
+.clickDiv {
+  display: grid;
+  background-color: rgb(87, 85, 138);
+  color: aliceblue;
+  justify-self: start;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 35vh;
+  width: 6vw;
+  height: 5vh;
+  align-content: space-evenly;
+  border-radius: 5px;
+}
+
+.alldeta {
+  color: azure;
+}
+
+.clickDiv2{
+  display: grid;
+  background-color: rgb(87, 85, 138);
+  color: aliceblue;
+  justify-self: start;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 5vh;
+  width: 6vw;
+  height: 5vh;
+  align-content: space-evenly;
+  border-radius: 5px;
+  
+}

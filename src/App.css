@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  background-color: #67696d;
+  height: 100vh;
+}
+
+a {
+  margin: 6px;
+  color: rgb(255, 208, 0);
+  text-decoration: none;
+  justify-items:center ;
+  justify-content: center;
+  margin-right: 2vw;
+  
+}
+
+
+.nameOfBroject {
+  color: rgb(255, 208, 0);
+}
+
+
+
+/* .allcont {
+  text-align: center;
+  background-color: #67696d;
+  height: 100vh;
+} */
+
+.divimg{
+    text-align: center;
+    background-color: #67696d;
+    
+}

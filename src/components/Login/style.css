@@ -1,0 +1,51 @@
+.alloflogin {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+ 
+  border: 2px;
+  /* border-style: solid; */
+  background-color: #67696d;
+  border-radius: 5px;
+}
+
+.inputlogin {
+  height: 8vh;
+  width: 30vw;
+  border-radius: 7px;
+ 
+  background-color: darkgrey;
+}
+
+.buttonstylelogin{
+  height: 10vh;
+  width: 20vw;
+  margin: 5px;
+  border-radius: 7px;
+  background-color: rgb(87, 85, 138);
+  color: aliceblue;
+}
+
+.allOflog{
+  display: grid;
+  height: 70vh;
+  width: 32vw;
+  justify-items: center;
+  border: 2px;
+  border-style: solid;
+  background-color: #82DBD8;
+  border-radius:7px;
+  margin-top: 5px;
+  display: grid;
+  height: 70vh;
+  border: 2px;
+  border-style: solid;
+  border-radius: 7px;
+  background-color: #19162c;
+  margin-top: 20px;
+}
+
+.h3log{
+  color:rgb(219, 219, 219);
+  margin-top: 10px;
+}
