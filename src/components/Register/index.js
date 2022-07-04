@@ -13,7 +13,7 @@ export const Register = () => {
   const [massage, setMassage] = useState("")
 
   const dataServer = () => {
-    axios.post(("http://localhost:5000/users/register"), {
+    axios.post(("https://p4carfor.herokuapp.com/users/register"), {
       name: name,
       age: age,
       email: email,

@@ -16,7 +16,7 @@ const Details = () => {
     const [status,setStatus]=useState("")
 
     const getcarbyId = () => {
-        axios.get((`http://localhost:5000/cars/${id}`), {
+        axios.get((`https://p4carfor.herokuapp.com/cars/${id}`), {
 
         }).then((result) => {
             // console.log(result);
@@ -39,7 +39,7 @@ const Details = () => {
     // })
 
     const clickForStatus = () => {
-        axios.put((`http://localhost:5000/cars/status/${id}`),{status:false}, {
+        axios.put((`https://p4carfor.herokuapp.com/cars/status/${id}`),{status:false}, {
         }).then((result) => {
             console.log(result.data);
             
@@ -54,7 +54,7 @@ const Details = () => {
     }
 
     const clickForStatusTrue = () => {
-        axios.put((`http://localhost:5000/cars/status/${id}`),{status:true}, {
+        axios.put((`https://p4carfor.herokuapp.com/cars/status/${id}`),{status:true}, {
         }).then((result) => {
             console.log(result.data);
             

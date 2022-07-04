@@ -72,7 +72,7 @@ const Asc = () => {
 
 
     const Allcars = () => {
-        axios.get(("http://localhost:5000/cars")
+        axios.get(("https://p4carfor.herokuapp.com/cars")
             , {
             }).then((result) => {
                 // console.log(newSearch)

@@ -33,7 +33,7 @@ export const Navbar = () => {
     const searchcar = () => {
         console.log(carname);
 
-        axios.get((`http://localhost:5000/cars/c/${carname}`), {
+        axios.get((`https://p4carfor.herokuapp.com/cars/c/${carname}`), {
         }).then((result) => {
             //    console.log(result);
 
@@ -51,7 +51,7 @@ export const Navbar = () => {
 
 
     const dorpdowns = () => {
-        axios.get((`http://localhost:5000/cars/category/${drop}`)).then((result) => {
+        axios.get((`https://p4carfor.herokuapp.com/cars/category/${drop}`)).then((result) => {
             console.log(result);
             setDropdown(result.data.result)
         }).catch((err) => {

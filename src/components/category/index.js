@@ -14,7 +14,7 @@ const Category = () => {
     const [categorying, setCategorying] = useState("")
 
     const getcarbyId = () => {
-        axios.get((`http://localhost:5000/cars/carname/${category}`), {
+        axios.get((`https://p4carfor.herokuapp.com/cars/carname/${category}`), {
 
         }).then((result) => {
             // console.log(result);
